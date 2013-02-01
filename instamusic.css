@@ -71,7 +71,6 @@ ul li {
 }
 
 ul li:nth-child(even) {
-  -o-transform:rotate(4deg);
   -webkit-transform:rotate(4deg);
   -moz-transform:rotate(4deg);
   position:relative;

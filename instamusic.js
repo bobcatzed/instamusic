@@ -15,7 +15,10 @@ require([
       session.user.load('identifier').done(function(user) {
         self.USER = Models.session.user.identifier;
         self.BOOKMARKLET = "javascript:"
-                    + "function addjs(f,c){var e=document.createElement('scr'+'ipt');e.type='text/javascript';e.src=f;if(typeof(e)!=='undefined'){if(c){e.onloadDone=false;e.onload=function(){e.onloadDone=true;c()};e.onReadystatechange=function(){if(e.readyState==='loaded'&&!e.onloadDone){e.onloadDone=true;c()}}}document.getElementsByTagName('head')[0].appendChild(e)}};"
+                    + "function addjs(f,c){var e=document.createElement('scr'+'ipt');e.type='text/javascript';"
+                    + "e.src=f;if(typeof(e)!=='undefined'){if(c){e.onloadDone=false;e.onload=function()"
+                    + "{e.onloadDone=true;c()};e.onReadystatechange=function(){if(e.readyState==='loaded'&&!e.onloadDone)"
+                    + "{e.onloadDone=true;c()}}}document.getElementsByTagName('head')[0].appendChild(e)}};"
                     + "addjs('" + self.HOST + "/js/bookmarklet.js', function() {"
                     + "var s = sel(document); var l = window.location.href; var u = '" + self.HOST + "/add';"
                     + "var c = 'url=' + encodeURIComponent(l) + '&user=" + self.USER + "' + (s ? '&text=' + encodeURIComponent(s) :"
