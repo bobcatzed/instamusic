@@ -1,0 +1,40 @@
+{
+  "BundleType": "Application",
+  "BundleIdentifier": "instamusic",
+  "BundleVersion": "0.2.0",
+  "UserInstallable": true,
+  "AppIcon": {
+    "18x18": "images/instamusic.png"
+  },
+  "AppName": {
+    "en": "InstaMusic"
+  },
+  "SupportedLanguages": [
+    "en"
+  ],
+  "DefaultTabs": [
+    {
+      "arguments": "music-tab",
+      "title": { "en": "Music" }
+    },
+    {
+      "arguments": "bookmarklet-tab",
+      "title": { "en": "Bookmarklet"}
+    }
+  ],
+  "AcceptedLinkTypes": [
+    "artist",
+    "album",
+    "track",
+    "playlist"
+  ],
+  "RequiredPermissions": [
+    "http://instamusik.appspot.com",
+    "http:localhost:8080"    
+  ],
+  "Dependencies": {
+    "api": "1.0.0",
+    "views": "1.0.0"
+  },
+  "VendorIdentifier": "zed.bobcat"
+}
