@@ -5,7 +5,7 @@ Spotify App that saves music you want to listen to for later.
 
 Install
 -------
-Create (if you don't have it already) a directory called *Spotify/* in your home directory.
+Create (if you don't have it already) a directory called *Spotify* in your home directory.
 Then check out this repo and put in a directory called *instamusic* in that folder. 
 
 Note that you need to have the developer flag set on your Spotify account for this app to run.
@@ -35,7 +35,7 @@ Bookmarklet
 -----------
 
 To get started with the bookmarklet, go to the Bookmarklet tab and drag the *Listen Later* bookmarklet into your web browser
-of choice and put it in your bookmarks bar. Whenever you find some music you want to save and listen to later you can inow use
+of choice and put it in your bookmarks bar. Whenever you find some music you want to save and listen to later you can now use
 the bookmarklet.
 
 As of now it has support for some well known music sites, for example Allmusic, Pitchfork and Last.fm (for a full list of
@@ -44,7 +44,7 @@ if a match is found in Spotify that artist, album or track will be saved. If no 
 as a search and hopefully the music might find its way into Spotify soon enough.
 
 If you are on a page not supported by the bookmarklet, you are not entirely out of luck. You can then select some text
-(i.e a artist and/or album) and it will be saved as a search so that you can at least remember what you wanted to listen to.
+(i.e an artist and/or album) and it will be saved as a search to perform later in Spotify. 
 
 When using the bookmarklet the web page that you found the music on will also be saved to the music note in the app,
 so you easily can go back to the page and see what review or other information made you interrested in the first place.
