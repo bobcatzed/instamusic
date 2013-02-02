@@ -27,7 +27,7 @@ That music, be it artists, albums, playlists or individual tracks, are than adde
 To achieve this there are multiple ways.
 
 * Inside Spotify you just drag'n'drop music into the app (more specifically onto the app icon in the left sidebar).
-* From a your web browser, use the Instamusic bookmarklet to send music you want to save to your Spotify client.
+* From a web browser, use the Instamusic bookmarklet to send music you want to save to your Spotify client.
 
 To remove a note you simply click the X in the upper right corner.
 
